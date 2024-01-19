@@ -29,3 +29,4 @@ while len(networks) < 50:
 
 for net in sorted(networks, key=IPv4RandomNetwork.key_value):
     print(net)
+print("Количество сетей для испоьзования", + len(networks))
